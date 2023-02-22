@@ -11,7 +11,9 @@ public class AnimalPicker {
             break;
             case("dog"): System.out.println("     _                 \n   __| | ___   __ _ ___ \n  / _` |/ _ \\ / _` / __|\n | (_| | (_) | (_| \\__ \\\n  \\__,_|\\___/ \\__, |___/\n              |___/     ");
             break;
+            case("fish"): System.out.println("   __ _     _     \n  / _(_)___| |__  \n | |_| / __| \'_ \\ \n |  _| \\__ \\ | | |\n |_| |_|___/_| |_|");
             default: System.out.println("ERROR: Please enter a correct value");
+            break;
         }
     }
     
