@@ -11,6 +11,7 @@ public class AnimalPicker {
             break;
             case("dog"): System.out.println("Dog ACII art here");
             break;
+            default: System.out.println("ERROR: Please enter a correct value");
         }
     }
     
