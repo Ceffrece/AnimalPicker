@@ -7,9 +7,9 @@ public class AnimalPicker {
         System.out.println("Would you like to see a dog or cat? (Use 'cat' for cat and 'dog' for dog)");
         String choice = scan.nextLine().toLowerCase();
         switch(choice){
-            case("cat"): System.out.println("Cat ACII art here");
+            case("cat"): System.out.println("          _       \n   ___ __ _| |_ ___ \n  / __/ _` | __/ __|\n | (_| (_| | |_\\__ \\\n  \\___\\__,_|\\__|___/");
             break;
-            case("dog"): System.out.println("Dog ACII art here");
+            case("dog"): System.out.println("     _                 \n   __| | ___   __ _ ___ \n  / _` |/ _ \\ / _` / __|\n | (_| | (_) | (_| \\__ \\\n  \\__,_|\\___/ \\__, |___/\n              |___/     ");
             break;
             default: System.out.println("ERROR: Please enter a correct value");
         }
